@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700');
+
+.item-form {
+    width: 20rem;
+    max-width: 90%;
+    margin: auto;
+    display: block;
+}
+.item-display{
+    font-family: 'Open Sans', sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+#item-display td, #item-display th {
+    padding: 8px;
+}
+
+#item-display tr:nth-child(even){background-color: #f2f2f2;}
+
+#item-display tr:hover {background-color: #ddd;}
+
+#item-display th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #134c81;
+    color: white;
+}
+
+
